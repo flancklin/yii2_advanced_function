@@ -17,5 +17,9 @@ return [
             'charset' => 'utf8',
             'tablePrefix' => "tp_",
         ],
+        'user' => [
+//            'class' =>'yii\web\user',
+            'identityClass' => 'app\models\User',//可以自定义user的某些规则
+        ],
     ],
 ];
